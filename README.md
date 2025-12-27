@@ -4,28 +4,16 @@ A _minimalist_ text editor that lives entirely in your browser and stores everyt
 
 ## Features
 
-- 📝 **It's a textarea!** Actually not.
-- 🗜️ **Compression magic** - Your text gets compressed with deflate because we're fancy like that
-- 🔗 **URL storage** - Share your notes by copying a 500-character URL. Your friends will love it!
-- 🌓 **Dark mode** - Respects your poor eyes and your color scheme preference
-- 💾 **Auto-save** - Debounced to 500ms because we're not savages
-- 📱 **Mobile friendly** - Type your manifesto on the go
-- 🎯 **No backend** - Zero servers were harmed in the making of this app
-
-## How to use
-
-1. Open [textarea.my](https://textarea.my)
-2. Type stuff
-3. Marvel at the URL getting longer
-4. Try to share it
-5. ...
-6. Profit
+- 🗜️ **Compression** – Your text gets compressed with deflate
+- 🔗 **URL hash** – Share your notes by copying a URL
+- 💕 **Style** – Customize the look with CSS via DevTools
 
 ## Pro tips
 
 - Start your document with `# Title` to set a custom page title
 - Your data lives in localStorage AND the URL. Double the fun!
-- Feeling fancy? Add a `style` attribute to the `<article>` tag via DevTools. It'll be saved in the URL too!
+- Add a `style` attribute to the `<article>` tag via DevTools. It'll be saved in the URL too!
+- Add [`/qr`](https://textarea.my/qr#c0_NSy1KLElVSFQIDFJIzk9JVUjLL1KozC8tUsjLL0ktVgQA) to get a QR code for the current page
 
 ## Examples
 
